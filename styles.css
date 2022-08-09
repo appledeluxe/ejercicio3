@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+.container{
+display:flex;
+justify-content: space-between;
+background-color: darkcyan;
+color: white;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 25%;
+}
+div:hover{
+    background-color: rgba(12, 49, 48, 0.425)
+}
+
+@media screen and (max-width:415px)
+{
+    .container{
+    flex-direction: column;
+    align-items: center;
+    }
+   
+}
